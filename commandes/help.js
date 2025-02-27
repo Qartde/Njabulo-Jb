@@ -1,4 +1,4 @@
-const { ezra } = require(__dirname + "/../fredi/ezra");
+const { zokou } = require(__dirname + "/../framework/zokou");
 
 // Function to convert text to fancy uppercase font
 const toFancyUppercaseFont = (text) => {
@@ -19,18 +19,18 @@ const toFancyLowercaseFont = (text) => {
 }
 
 // Command to list all bot commands along with descriptions and aliases
-ezra({
+zokou({
     nomCom: "help",
-    reaction: "🤦",
+    reaction: "💬",
     aliases: ["panelist", "commandlist", "cmdlist", "list"],
     desc: "Get bot command list.",
     categorie: "universal"
 }, async (dest, zk, context) => {
     const { respond, prefix, nomAuteurMessage } = context;
-    const commands = require(__dirname + "/../fredi/ezra").cm;
+    const commands = require(__dirname + "/../framework/zokou").cm;
 
-    let menu = 'ɴᴊᴀʙᴜʟᴏ ᴊʙ ᴄᴍᴅ\n\n';
-    let ezraList = [];
+    let menu = 'Njabulo JB\n\n';
+    let keithList = [];
 
     // Loop through all commands to fetch the relevant information (commands, description, and aliases)
     commands.forEach((command) => {
@@ -38,15 +38,15 @@ ezra({
 
         // Ensure no command with undefined 'nomCom' gets added
         if (nomCom) {
-            ezraList.push({ nomCom, desc, aliases, categorie, reaction });
+            keithList.push({ nomCom, desc, aliases, categorie, reaction });
         }
     });
 
     // Sort the command list alphabetically by command name
-    ezraList.sort((a, b) => a.nomCom.localeCompare(b.nomCom));
+    keithList.sort((a, b) => a.nomCom.localeCompare(b.nomCom));
 
     // Format and add each command, description, and alias to the menu
-    ezraList.forEach(({ nomCom, desc, aliases, categorie, reaction }, index) => {
+    keithList.forEach(({ nomCom, desc, aliases, categorie, reaction }, index) => {
         menu += `${index + 1}. ${toFancyUppercaseFont(nomCom.trim())}\n`;
         menu += `Description: ${toFancyLowercaseFont(desc)}\n`;
         menu += `Aliases: ${toFancyLowercaseFont(aliases)}\n`;
@@ -59,9 +59,9 @@ ezra({
         text: menu,
         contextInfo: {
             externalAdReply: {
-                title: "NJABULO-JB",
-                body: "regards Njabulojb",
-                thumbnailUrl: "https://files.catbox.moe/z8xkwd.jpg",
+                title: "Njabulo JB",
+                body: "𝐫𝐞𝐠𝐚𝐫𝐝𝐬 ɴᴊᴀʙᴜʟᴏ-ᴊʙ",
+                thumbnailUrl: "https://files.catbox.moe/70u16l.jpg",
                 sourceUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
                 mediaType: 1,
                 renderLargerThumbnail: true
@@ -69,3 +69,5 @@ ezra({
         }
     });
 });
+
+        
