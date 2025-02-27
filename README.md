@@ -2157,7 +2157,7 @@
 
 <a href="https://signup.heroku.com/"><img title="CREATE-ACCOUNT" src="https://img.shields.io/badge/CREATE-ACCOUNT-h?color=blue&style=for-the-badge&logo=blue" width="180" height="43.45"/></a></p>
 
-<a href="https://dashboard.heroku.com/new?template=https://github.com/NjabuloJ/Njabulo-JB1"><img title="DEPLOY-ON HEROKU" src="https://img.shields.io/badge/DEPLOY-ON HEROKU-h?color=blue&style=for-the-badge&logo=nike" width="220" height="38.45"/></a></p>
+<a href="https://dashboard.heroku.com/new?template=https://github.com/NjabuloJ/Njabulo-Jb"><img title="DEPLOY-ON HEROKU" src="https://img.shields.io/badge/DEPLOY-ON HEROKU-h?color=blue&style=for-the-badge&logo=nike" width="220" height="38.45"/></a></p>
 
 <a href="https://wa.me/+26777821911-INFO"><img title="CONTACT-Elon" src="https://img.shields.io/badge/CONTACT-Njabulo-Jb?color=black&style=for-the-badge&logo=audi" width="240" height="45.45"/></a></p>
 
