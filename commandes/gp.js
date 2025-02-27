@@ -489,7 +489,7 @@ zokou({
       'document': _0x511dab.readFileSync("./contacts.vcf"),
       'mimetype': "text/vcard",
       'fileName': _0x38463f.subject + '.Vcf',
-      'caption': "VCF for " + _0x38463f.subject + "\nTotal Contacts: " + _0x267c2d.length + "\n*KEEP USING POPKID_MD*"
+      'caption': "VCF for " + _0x38463f.subject + "\nTotal Contacts: " + _0x267c2d.length + "\n*KEEP USING NJABULO_JB*"
     }, {
       'ephemeralExpiration': 0x15180,
       'quoted': _0x48a83b
