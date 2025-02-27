@@ -15,10 +15,10 @@ zokou({nomCom : "instagram" , categorie : "Download"},async (dest , zk , command
     let igvid = await axios('https://vihangayt.me/download/instagram?url='+link)
 
     if (igvid.data.data.data[0].type == 'video') {
-    zk.sendMessage(dest,{video : {url : igvid.data.data.data[0].url},caption : "ig video downloader powered by *popkid-Md*",gifPlayback : false },{quoted : ms}) 
+    zk.sendMessage(dest,{video : {url : igvid.data.data.data[0].url},caption : "ig video downloader powered by *Njabulo-Md*",gifPlayback : false },{quoted : ms}) 
     }
     else {
-        zk.sendMessage(dest,{image : {url : igvid.data.data.data[0].url},caption : "ig image downloader powered by *popkid-Md*"})
+        zk.sendMessage(dest,{image : {url : igvid.data.data.data[0].url},caption : "ig image downloader powered by *Njabulo-Md*"})
     }
   
   } catch (e) {repondre("erreur survenue lors du téléchargement \n " + e)}
@@ -27,9 +27,9 @@ zokou({nomCom : "instagram" , categorie : "Download"},async (dest , zk , command
 
 
 zokou({
-  nomCom: "facabook",
+  nomCom: "fb",
   categorie: "Download",
-  reaction: "📽️"
+  reaction: "🎬"
 },
 async (dest, zk, commandeOptions) => {
   const { repondre, ms, arg } = commandeOptions;
@@ -49,7 +49,7 @@ async (dest, zk, commandeOptions) => {
         Lien: ${result.url}
       `;
        zk.sendMessage(dest,{image : { url : result.thumbnail}, caption : caption},{quoted : ms}) ;
-       zk.sendMessage(dest, { video: { url: result.hd  }, caption: 'facebook video downloader powered by *popkid-MD*' }, { quoted: ms });
+       zk.sendMessage(dest, { video: { url: result.hd  }, caption: 'facebook video downloader powered by *☆ɴᴊᴀʙᴜʟᴏ-ᴊʙ☆*' }, { quoted: ms });
       
     })
     .catch((error) => {console.log("Error:", error)
@@ -91,9 +91,9 @@ Description: ${tik.desc}
 });
 
 zokou({
-  nomCom: "facebook2",
+  nomCom: "fb2",
   categorie: "Download",
-  reaction: "📽️"
+  reaction: "🎞️"
 },
 async (dest, zk, commandeOptions) => {
   const { repondre, ms, arg } = commandeOptions;
@@ -113,7 +113,7 @@ async (dest, zk, commandeOptions) => {
         Lien: ${result.url}
       `;
        zk.sendMessage(dest,{image : { url : result.thumbnail}, caption : caption},{quoted : ms}) ;
-       zk.sendMessage(dest, { video: { url: result.sd  }, caption: 'facebook video downloader powered by *popkid-MD*' }, { quoted: ms });
+       zk.sendMessage(dest, { video: { url: result.sd  }, caption: 'facebook video downloader powered by *☆ɴᴊᴀʙᴜʟᴏ-ᴊʙ☆*' }, { quoted: ms });
       
     })
     .catch((error) => {console.log("Error:", error)
@@ -126,3 +126,4 @@ async (dest, zk, commandeOptions) => {
     repondre('Erreur lors du téléchargement de la vidéo.' , error);
   }
 });
+    
