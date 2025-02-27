@@ -848,11 +848,14 @@ zk.ev.on('group-participants.update', async (group) => {
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
 
-                let cmsg =`      ❒─❒⁠⁠⁠⁠ *Njabulo Jb Is Running* ❒⁠⁠⁠⁠─⁠⁠⁠⁠❒⁠⁠⁠⁠
-╭❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠              
-❒⁠⁠⁠⁠ Owner  : *Njabulo*   
-❒⁠⁠⁠⁠ Machine : *Njabulo Jb*
-╰❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠`;
+                let cmsg =`      ╭─────────────━┈⊷ 
+│ *ɴᴊᴀʙᴜʟᴏ ᴊʙ ᴄᴏɴɴᴇᴄᴛᴇᴅ*
+ |─────────────━┈⊷
+│ᴘʀᴇғɪx: * [ ${prefix} *
+│ᴍᴏᴅᴇ: * ${mode}*
+│ʙᴏᴛ ɴᴀᴍᴇ: *ɴᴊᴀʙᴜʟᴏ ᴊʙ*
+│ᴏᴡɴᴇʀ : *ɴᴊᴀʙᴜʟᴏ ᴊʙ*
+╰─────────────━┈⊷⁠⁠⁠⁠`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
             }
