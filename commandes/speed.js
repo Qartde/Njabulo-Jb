@@ -1,3 +1,104 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const util = require('util');
 const fs = require('fs-extra');
 const axios = require('axios');
@@ -31,7 +132,7 @@ zokou({ nomCom: "ping", categorie: "General" }, async (dest, zk, commandeOptions
             ptt: true, // Voice note form
             contextInfo: {
                 externalAdReply: {
-                    title: "*✧ɴᴊᴀʙᴜʟᴏ-ᴊʙ✧*",
+                    title: "✧ɴᴊᴀʙᴜʟᴏ-ᴊʙ✧",
                     body: `⚪ 𝚙𝚒𝚗𝚐: ${ping}ms\n📅 *Date:* ${date}\n⏰ *Time:* ${time}`,
                     thumbnailUrl: THUMBNAIL_URL,
                     mediaType: 1,
