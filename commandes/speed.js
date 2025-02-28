@@ -6,7 +6,7 @@ function delay(_0x25f170) {
   return new Promise(_0x529a1f => setTimeout(_0x529a1f, _0x25f170));
 }
 zokou({
-  'nomCom': "ping",
+  'nomCom': "speed",
   'desc': "To check bot response time",
   'Categorie': "General",
   'reaction': '🚔',
