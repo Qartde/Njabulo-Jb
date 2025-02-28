@@ -1,5 +1,5 @@
 {
-  "name":"Njabulo",
+  "name":"ɴᴊᴀʙᴜʟᴏ-ᴊʙ",
   "description":"Best whatsapp bot",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://files.catbox.moe/kyesjo.jpg",
@@ -35,11 +35,6 @@
       "value": "no",
       "required": false
     },
-      "AUTO_REACT_STATUS": {
-      "description":"Enter yes for your bot to auto react status",
-      "value":"yes",
-      "required":false
-    },
      "PM_PERMIT" :
      {
       "description":"Other user can't use your bot in pm (type yes to active or no to deactive ; don't write in capital letter)",
@@ -50,7 +45,7 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"Njabulo-Jb",
+      "value":"ɴᴊᴀʙᴜʟᴏ-ᴊʙ",
       "required":false
 
     } ,
@@ -90,7 +85,7 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "Njabulo"
+    "value": "ɴᴊᴀʙᴜʟᴏ-ᴊʙ"
   },
     "NUMERO_OWNER":
   {
@@ -120,6 +115,11 @@
     "description": "if you want to enable anti delete message put yes else put no",
     "value": "yes",
         "required": false
+ },
+    "AUTO_REACTION": {
+      "description": "Put yes if you want the bot to react to messages in private",
+      "required": false,
+      "value": "yes"
   }
   },
 
