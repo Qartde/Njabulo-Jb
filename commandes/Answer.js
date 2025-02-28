@@ -6,12 +6,12 @@ const { default: axios } = require('axios');
 
 
 
-zokou({nomCom:"Njabulo",reaction:"📡",categorie:"IA"},async(dest,zk,commandeOptions)=>{
+zokou({nomCom:"njabulo",reaction:"📡",categorie:"IA"},async(dest,zk,commandeOptions)=>{
 
   const {repondre,ms,arg}=commandeOptions;
   
     if(!arg || !arg[0])
-    {return repondre("*Hey Pal.... Njabulo here How may i help you*")}
+    {return repondre("*ʜɪ ᴀᴍ ɴᴊᴀʙᴜʟᴏ ᴊʙ, ʜᴏᴡ ᴍᴀʏ ɪ ʜᴇʟᴘ ʏᴏᴜ")}
     //var quest = arg.join(' ');
   try{
     
@@ -50,7 +50,7 @@ fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg
   
     try {
       if (!arg || arg.length === 0) {
-        return repondre(`Please enter the necessary information to generate the image.`);
+        return repondre(`ᴘʟᴇᴀsᴇ ᴇɴᴛᴇʀ ᴛʜᴇ ɴᴇᴄᴇssᴀʀʏ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ᴛʜᴇ ɪᴍᴀɢᴇ.`);
       }
   
       // Regrouper les arguments en une seule chaîne séparée par "-"
@@ -58,7 +58,7 @@ fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg
       const response = await axios.get(`http://api.maher-zubair.tech/ai/photoleap?q=${image}`);
       
       const data = response.data;
-      let caption = '*powered by BERA TECH*';
+      let caption = '*powered by Njabulo*';
       
       if (data.status == 200) {
         // Utiliser les données retournées par le service
@@ -123,4 +123,5 @@ zokou({ nomCom: "gpt", reaction: "🤔", categorie: "IA" }, async (dest, zk, com
   });
 
 
-  
+
+        
