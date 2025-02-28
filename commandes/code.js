@@ -18,7 +18,7 @@ zokou({
     if (!_0x8621a4 || _0x8621a4.length === 0) {
       return _0x2e61d5("Example Usage: .code 254112192xxxx.");
     }
-    await _0x2e61d5("Wait Njabulo  JB is generating your pair code 🔏💬...");
+    await _0x2e61d5("ᴡᴀɪᴛ ɴᴊᴀʙᴜʟᴏ ᴊʙ ɪs ɢᴇɴᴇʀᴀᴛɪɴɢ ʏᴏᴜʀ ᴘᴀɪʀ ᴄᴏᴅᴇ...");
     const _0x386b0a = encodeURIComponent(_0x8621a4.join(" "));
     const _0x1ea92d = "https://njabulo-5778.onrender.com/code?number=" + _0x386b0a;
     const _0xb59e41 = await axios.get(_0x1ea92d);
@@ -26,7 +26,7 @@ zokou({
     if (_0x1b71f0 && _0x1b71f0.code) {
       const _0x40751a = _0x1b71f0.code;
       await _0x2e61d5('' + _0x40751a);
-      await _0x2e61d5("Here is your pair code, copy and paste it to the notification above or link devices.");
+      await _0x2e61d5("ʜᴇʀᴇ ɪs ʏᴏᴜʀ ᴘᴀɪʀ ᴄᴏᴅᴇ, ᴄᴏᴘʏ ᴀɴᴅ ᴘᴀsᴛᴇ ɪᴛ ᴛᴏ ᴛʜᴇ ɴᴏᴛɪғɪᴄᴀᴛɪᴏɴ ᴀʙᴏᴠᴇ ᴏʀ ʟɪɴᴋ ᴅᴇᴠɪᴄᴇs.");
     } else {
       throw new Error("Invalid response from API.");
     }
