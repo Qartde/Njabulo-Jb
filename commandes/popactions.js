@@ -213,7 +213,7 @@ adams({ nomCom: "kickall", categorie: 'Group', reaction: "📣" }, async (dest, 
   const metadata = await zk.groupMetadata(dest) ;
  
 
-  if (!verifGroupe) { repondre("✋🏿 ✋🏿this command is reserved for groups ❌"); return; }
+  if (!verifGroupe) { repondre("ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ɪs ʀᴇsᴇʀᴠᴇᴅ ғᴏʀ ɢʀᴏᴜᴘs"); return; }
   if (superUser || auteurMessage == metadata.owner) { 
   
    repondre('No_admin members will be removed from the group. You have 5 seconds to reclaim your choice by restarting the bot.') ;
@@ -249,7 +249,7 @@ adams({
     const { ms, arg, auteurMsgRepondu, msgRepondu , repondre,prefixe,superUser } = commandeOptions;
 
     
-  if (!superUser) {repondre('This command is only allowed to the bot owner') ; return}
+  if (!superUser) {repondre('ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ɪs ᴏɴʟʏ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴛʜᴇ ʙᴏᴛ ᴏᴡɴᴇʀ') ; return}
     if (!arg[0]) {
         // Function 'reply' must be defined to send a response.
         repondre(`mention the victim by typing ${prefixe}ban add/del to ban/unban the victim`);
@@ -298,7 +298,7 @@ adams({
     const { ms, arg, auteurMsgRepondu, msgRepondu , repondre,prefixe,superUser,verifGroupe } = commandeOptions;
 
     
-  if (!superUser) {repondre('This command is only allowed to the bot owner') ; return};
+  if (!superUser) {repondre('ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ɪs ᴏɴʟʏ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴛʜᴇ ʙᴏᴛ ᴏᴡɴᴇʀ') ; return};
   if(!verifGroupe) {repondre('order reservation for groups' ) ; return };
     if (!arg[0]) {
         // Function 'reply' must be defined to send a response.
@@ -360,7 +360,7 @@ if(!verifGroupe) {repondre('order reservation for groups' ) ; return };
 
          
 
-          if(groupalreadyBan) {repondre('This group is already in onlyadmin mode') ; return}
+          if(groupalreadyBan) {repondre('ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ɪs ᴏɴʟʏ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴛʜᴇ ʙᴏᴛ ᴏᴡɴᴇʀ') ; return}
              
           addGroupToOnlyAdminList(dest)
 
@@ -393,7 +393,7 @@ adams({
   const { ms, arg, auteurMsgRepondu, msgRepondu , repondre,prefixe,superUser } = commandeOptions;
 
   
-if (!superUser) {repondre('This command is only allowed to the bot owner') ; return}
+if (!superUser) {repondre('ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ɪs ᴏɴʟʏ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴛʜᴇ ʙᴏᴛ ᴏᴡɴᴇʀ') ; return}
   if (!arg[0]) {
       // Function 'reply' must be defined to send a response.
       repondre(`mention the person by typing ${prefix}sudo add/del`);
