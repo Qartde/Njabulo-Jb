@@ -1,38 +1,37 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const { zokou } = require("../framework/zokou");
-
-zokou({ nomCom: "repo1", catégorie:"Général", reaction: "🚔", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
-  const githubRepo = 'https://api.github.com/repos/NjabuloJ/Njabulo-jb';
-  const img = 'https://files.catbox.moe/xfn913.jpg';
+module.exports = async (context) => {
+  const { client, m } = context;
 
   try {
-    const response = await fetch(githubRepo);
-    const data = await response.json();
+    // Fetch repository data from GitHub
+    const response = await fetch("https://api.github.com/repos/Njabulo-Jb/Njabulo-Jb");
+    const repoData = await response.json();
 
-    if (data) {
-      const repoInfo = {
-        stars: data.stargazers_count,
-        forks: data.forks_count,
-        lastUpdate: data.updated_at,
-        owner: data.owner.login,
-      };
+    // Extract relevant information
+    const repoInfo = {
+      stars: repoData.stargazers_count,
+      forks: repoData.forks_count,
+      lastUpdate: repoData.updated_at,
+      owner: repoData.owner.login,
+      createdAt: repoData.created_at,
+      url: repoData.html_url
+    };
 
-      const releaseDate = new Date(data.created_at).toLocaleDateString('en-GB');
-      const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
+    // Format dates
+    const createdDate = new Date(repoInfo.createdAt).toLocaleDateString("en-GB");
+    const lastUpdateDate = new Date(repoInfo.lastUpdate).toLocaleDateString("en-GB");
 
-      // Construct message caption
+    // Construct message caption
     const messageCaption = `
-      *Hello ,,,👋 This is Njabulo JB*
-      The best bot in the universe developed by Njabulo. Fork and give a star 🌟 to my repo
-               ╭───────────────────
-               │✞ *Stars:* ${repoInfo.stars}
-               │✞ *Forks:* ${repoInfo.forks}
-               │✞ *Release Date:* ${createdDate}
-               │✞ *Last Update:* ${lastUpdateDate}
-               │✞ *Owner:* ${repoInfo.owner}
-               │✞ *Repository:* ${repoInfo.url}
-               ╰───────────────────
+      *Hello ,,,👋 This is ɴᴊᴀʙᴜʟᴏ ᴊʙ*
+      The best bot in the universe developed by ɴᴊᴀʙᴜʟᴏ ᴊʙ. Fork and give a star 🌟 to my repo
+      ╭───────────────────
+      │✞ *Stars:* ${repoInfo.stars}
+      │✞ *Forks:* ${repoInfo.forks}
+      │✞ *Release Date:* ${createdDate}
+      │✞ *Last Update:* ${lastUpdateDate}
+      │✞ *Owner:* ${repoInfo.owner}
+      │✞ *Repository:* ${repoInfo.url}
+      ╰───────────────────
     `;
 
     // Send the generated message to the user
@@ -49,12 +48,10 @@ zokou({ nomCom: "repo1", catégorie:"Général", reaction: "🚔", nomFichier: _
         }
       }
     });
-};
- await zk.sendMessage(dest, { image: { url: img }, caption: gitdata });
-    } else {
-      console.log("Could not fetch data");
-    }
+
   } catch (error) {
-    console.log("Error fetching data:", error);
+    console.error("Error:", error);
+    m.reply('An unexpected error occurred while generating the repo information.');
   }
-});
+};
+      
