@@ -5,7 +5,7 @@ const conf = require(__dirname + '/../set');
 
 // Define the command with aliases for play
 zokou({
-  nomCom: "music",
+  nomCom: "play",
   aliases: ["song", "playdoc", "audio", "mp3"],
   categorie: "Search",
   reaction: "💬"
@@ -93,7 +93,30 @@ let downloadData;
         }
       }
     };
-
+caption: `\n*ɴᴊᴀʙᴜʟᴏ ᴊʙ ᴍᴜsɪᴄ*\n
+╭┈┈┈⊷
+┊Title: ${songTitle} 
+┊Quality: High
+┊Duration: ${firstVideo.timestamp}
+╰┈┈┈⊷
+╭┈┈┈⊷
+┊🌐channel:https://shorturl.at/q8ZuS
+╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⊷`,
+      audio: { url: downloadUrl },
+        mimetype: 'audio/mpeg',
+        contextInfo: {
+          externalAdReply: {
+            title: "ɴᴊᴀʙᴜʟᴏ ᴊʙ ᴍᴜsɪᴄ" ,
+            body: "ᴛᴀᴘ ʜᴇʀ ᴛᴏ ғᴏʟʟᴏᴡ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ",
+            mediaType: 1,
+            sourceUrl:"https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
+            thumbnailUrl: firstVideo.thumbnail,
+            renderLargerThumbnail: false,
+            showAdAttribution: true,
+        }
+      }
+    };
+      
     await zk.sendMessage(dest, messagePayload, { quoted: ms });
 
   } catch (error) {
