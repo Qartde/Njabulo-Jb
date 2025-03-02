@@ -70,30 +70,7 @@ let downloadData;
 
     // Prepare the message with song details
     const messagePayload = {
-      caption: `\n*ɴᴊᴀʙᴜʟᴏ ᴊʙ ᴍᴜsɪᴄ*\n
-╭┈┈┈⊷
-┊Title: ${songTitle} 
-┊Quality: High
-┊Duration: ${firstVideo.timestamp}
-╰┈┈┈⊷
-╭┈┈┈⊷
-┊🌐channel:https://shorturl.at/q8ZuS
-╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⊷`,
-      document: { url: downloadUrl },
-        mimetype: 'video/mp4',
-        contextInfo: {
-          externalAdReply: {
-            title: "ɴᴊᴀʙᴜʟᴏ ᴊʙ" ,
-            body: "ᴛᴀᴘ ʜᴇʀ ᴛᴏ ғᴏʟʟᴏᴡ ᴏᴜʀ ᴄʜᴀɴɴᴇʟ",
-            mediaType: 1,
-            sourceUrl:"https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
-            thumbnailUrl: firstVideo.thumbnail,
-            renderLargerThumbnail: false,
-            showAdAttribution: true,
-        }
-      }
-    }
-    {
+  }
      video: { url: downloadUrl },
         mimetype: 'video/mp4',
         contextInfo: {
