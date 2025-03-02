@@ -92,9 +92,23 @@ let downloadData;
             showAdAttribution: true,
         }
       }
-    };
-
-      
+     }
+    {
+      audio: { url: downloadUrl },
+        mimetype: 'audio/mp4',
+        contextInfo: {
+          externalAdReply: {
+            title: "ɴᴊᴀʙᴜʟᴏ ᴊʙ"
+            body: videoDetails.title,
+            mediaType: 1,
+            sourceUrl: conf.GURL,
+            thumbnailUrl: firstVideo.thumbnail,
+            renderLargerThumbnail: false,
+            showAdAttribution: true,
+         }
+      }
+    };            
+         
     await zk.sendMessage(dest, messagePayload, { quoted: ms });
 
   } catch (error) {
