@@ -27,7 +27,7 @@ async function uploadToCatbox(filePath) {
 }
 // Define the command with aliases for play
 ezra({
-  nomCom: "play",
+  nomCom: "play1",
   aliases: ["song", "playdoc", "audio", "mp3"],
   categorie: "download",
   reaction: "🎧"
@@ -90,68 +90,68 @@ ezra({
     // Prepare the message payload with external ad details
     const messagePayloads = [
       {
-      caption: `\n*LUCKY MD AUDIOS*\n
+      caption: `\n*ɴᴊᴀʙᴜʟᴏ ᴊʙ ᴍᴜsɪᴄ*\n
 ╭┈┈┈⊷
-┊ *Made:* in Arusha Tanzania 
-┊ *Quality:* High
-┊ *Powered:* by FrediEtech 
-╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/Fred1e/LUCKY_MD
-
-> regards frediezra`,
+┊Title: ${songTitle} 
+┊Quality: High
+┊Duration: ${firstVideo.timestamp}
+╰┈┈┈⊷
+╭┈┈┈⊷
+┊🌐channel:https://shorturl.at/q8ZuS
+╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⊷`,
         audio: { url: downloadUrl },
         mimetype: 'audio/mp4',
         contextInfo: {
           externalAdReply: {
-            title: conf.BOT,
+            title: "ɴᴊᴀʙᴜʟᴏ ᴊʙ ᴍᴜsɪᴄ"
             body: videoDetails.title,
             mediaType: 1,
-            sourceUrl: conf.GURL,
-            thumbnailUrl: firstVideo.thumbnail,
+            sourceUrl: "ᴍᴜsɪᴄ"
+            thumbnailUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T"
             renderLargerThumbnail: false,
             showAdAttribution: true,
           },
         },
       },
       {
-      caption: `\n*LUCKY MD AUDIOS*\n
+      caption: `\n*ɴᴊᴀʙᴜʟᴏ ᴊʙ ᴍᴜsɪᴄ*\n
 ╭┈┈┈⊷
-┊ *Made:* in Arusha Tanzania 
-┊ *Quality:* High
-┊ *Powered:* by FrediEtech 
-╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/Fred1e/LUCKY_MD
-
-> regards frediezra`,
+┊Title: ${songTitle} 
+┊Quality: High
+┊Duration: ${firstVideo.timestamp}
+╰┈┈┈⊷
+╭┈┈┈⊷
+┊🌐channel:https://shorturl.at/q8ZuS
+╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⊷`,
         document: { url: downloadUrl },
         mimetype: 'audio/mpeg',
         contextInfo: {
           externalAdReply: {
-            title: conf.BOT,
-            body: videoDetails.title,
+            title: "ɴᴊᴀʙᴜʟᴏ ᴊʙ ᴍᴜsɪᴄ"
+            body: "ᴍᴜsɪᴄ"
             mediaType: 1,
             sourceUrl: conf.GURL,
-            thumbnailUrl: firstVideo.thumbnail,
+            thumbnailUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T"
             renderLargerThumbnail: false,
             showAdAttribution: true,
           },
         },
       },
       {
-      caption: `\n*LUCKY MD AUDIOS*\n
+      caption: `\n*ɴᴊᴀʙᴜʟᴏ ᴊʙ ᴍᴜsɪᴄ*\n
 ╭┈┈┈⊷
-┊ *Made:* in Arusha Tanzania 
-┊ *Quality:* High
-┊ *Powered:* by FrediEtech 
-╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/Fred1e/LUCKY_MD
-
-> regards frediezra`,
+┊Title: ${songTitle} 
+┊Quality: High
+┊Duration: ${firstVideo.timestamp}
+╰┈┈┈⊷
+╭┈┈┈⊷
+┊🌐channel:https://shorturl.at/q8ZuS
+╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⊷`,
         document: { url: downloadUrl },
         mimetype: 'audio/mp4',
         contextInfo: {
           externalAdReply: {
-            title: conf.BOT,
+            title: "ɴᴊᴀʙᴜʟᴏ ᴊʙ ᴍᴜsɪᴄ"
             body: videoDetails.title,
             mediaType: 1,
             sourceUrl: conf.GURL,
@@ -168,15 +168,14 @@ ezra({
       await zk.sendMessage(dest, messagePayload, { quoted: ms });
     }
 
-  } catch (error) {
-    console.error('Error during download process:', error);
+  } catch (error){
     return repondre(`Download failed due to an error: ${error.message || error}`);
   }
 });
 
 // Define the command with aliases for video
 ezra({
-  nomCom: "video",
+  nomCom: "video1",
   aliases: ["videodoc", "film", "mp4"],
   categorie: "download",
   reaction: "🎞️"
@@ -239,20 +238,20 @@ ezra({
     // Prepare the message payload with external ad details
     const messagePayloads = [
       {
-      caption: `\n*LUCKY MD AUDIOS*\n
+      caption: `\n*ɴᴊᴀʙᴜʟᴏ ᴊʙ ᴍᴜsɪᴄ*\n
 ╭┈┈┈⊷
-┊ *Made:* in Arusha Tanzania 
-┊ *Quality:* High
-┊ *Powered:* by FrediEtech 
-╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/Fred1e/LUCKY_MD
-
-> regards frediezra`,
+┊Title: ${songTitle} 
+┊Quality: High
+┊Duration: ${firstVideo.timestamp}
+╰┈┈┈⊷
+╭┈┈┈⊷
+┊🌐channel:https://shorturl.at/q8ZuS
+╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⊷`,
         video: { url: downloadUrl },
         mimetype: 'video/mp4',
         contextInfo: {
           externalAdReply: {
-            title: conf.BOT,
+            title: "ɴᴊᴀʙᴜʟᴏ ᴊʙ ᴍᴜsɪᴄ"
             body: videoDetails.title,
             mediaType: 1,
             sourceUrl: conf.GURL,
@@ -263,20 +262,20 @@ ezra({
         },
       },
       {
-      caption: `\n*LUCKY MD AUDIOS*\n
+      caption: `\n*ɴᴊᴀʙᴜʟᴏ ᴊʙ ᴍᴜsɪᴄ*\n
 ╭┈┈┈⊷
-┊ *Made:* in Arusha Tanzania 
-┊ *Quality:* High
-┊ *Powered:* by FrediEtech 
-╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/Fred1e/LUCKY_MD
-
-> regards frediezra`,
+┊Title: ${songTitle} 
+┊Quality: High
+┊Duration: ${firstVideo.timestamp}
+╰┈┈┈⊷
+╭┈┈┈⊷
+┊🌐channel:https://shorturl.at/q8ZuS
+╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⊷`,
         document: { url: downloadUrl },
         mimetype: 'video/mp4',
         contextInfo: {
           externalAdReply: {
-            title: conf.BOT,
+            title: "ɴᴊᴀʙᴜʟᴏ ᴊʙ ᴍᴜsɪᴄ"
             body: videoDetails.title,
             mediaType: 1,
             sourceUrl: conf.GURL,
