@@ -70,7 +70,7 @@ let downloadData;
 
     // Prepare the message with song details
     const messagePayload = {
-      caption: `\n*ɴᴊᴀʙᴜʟᴏ ᴊʙ ᴍᴜsɪᴄ*\n
+      caption: `\n*𝗡𝗝𝗔𝗕𝗨𝗟𝗢 𝗝𝗕 𝗦𝗢𝗡𝗚𝗦*\n
 ╭┈┈┈⊷
 ┊Title: ${songTitle} 
 ┊Quality: High
@@ -90,25 +90,11 @@ let downloadData;
             thumbnailUrl: firstVideo.thumbnail,
             renderLargerThumbnail: false,
             showAdAttribution: true,
+      
         }
       }
-     }
-    {
-      audio: { url: downloadUrl },
-        mimetype: 'audio/mp4',
-        contextInfo: {
-          externalAdReply: {
-            title: "ɴᴊᴀʙᴜʟᴏ ᴊʙ"
-            body: videoDetails.title,
-            mediaType: 1,
-            sourceUrl: conf.GURL,
-            thumbnailUrl: firstVideo.thumbnail,
-            renderLargerThumbnail: false,
-            showAdAttribution: true,
-         }
-      }
-    };            
-         
+    };
+
     await zk.sendMessage(dest, messagePayload, { quoted: ms });
 
   } catch (error) {
