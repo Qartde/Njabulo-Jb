@@ -1,78 +1,60 @@
-const axios = require("axios");
-const moment = require("moment-timezone");
-const {
-  zokou
-} = require(__dirname + "/../framework/zokou");
-let dynamicForks = 5000;
-const fetchGitHubRepoDetails = async () => {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const { zokou } = require("../framework/zokou");
+
+zokou({ nomCom: "repo1", catégorie:"Général", reaction: "🚔", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
+  const githubRepo = 'https://api.github.com/repos/NjabuloJ/Njabulo-jb';
+  const img = 'https://files.catbox.moe/xfn913.jpg';
+
   try {
-    const _0x1c6838 = await axios.get("https://api.github.com/repos/NjabuloJ/Njabulo-Jb");
-    const {
-      name: _0x4ae93b,
-      stargazers_count: _0x27ef27,
-      watchers_count: _0x2237c0,
-      open_issues_count: _0x5424db,
-      forks_count: _0x4c9398,
-      owner: _0x38cd9a
-    } = _0x1c6838.data;
-    dynamicForks += _0x4c9398;
-    return {
-      'name': _0x4ae93b,
-      'stars': _0x27ef27,
-      'watchers': _0x2237c0,
-      'issues': _0x5424db,
-      'forks': dynamicForks,
-      'owner': _0x38cd9a.login,
-      'url': _0x1c6838.data.html_url
-    };
-  } catch (_0x5d335a) {
-    console.error("Error fetching GitHub repository details:", _0x5d335a);
-    return null;
-  }
-};
-const commands = ["git", "repo", "ezrafre", "last", "liverpool", "anfield", "script", 'cs'];
-commands.forEach(_0x30efd7 => {
-  zokou({
-    'nomCom': _0x30efd7,
-    'categorie': "GitHub"
-  }, async (_0x3247d3, _0x23108e, _0x3c706d) => {
-    let {
-      repondre: _0xb6c54d
-    } = _0x3c706d;
-    const _0xec02f3 = await fetchGitHubRepoDetails();
-    if (!_0xec02f3) {
-      _0xb6c54d("âŒ Failed to fetch GitHub repository information.");
-      return;
-    }
-    const {
-      name: _0x2f3ef9,
-      stars: _0x104bd8,
-      watchers: _0x517909,
-      issues: _0x571494,
-      forks: _0x83a01e,
-      owner: _0x1b991d,
-      url: _0x35610a
-    } = _0xec02f3;
-    const _0x203945 = moment().tz("Africa/Dodoma").format("DD/MM/YYYY HH:mm:ss");
-    const _0x1cd310 = "\n💬 *" + _0x2f3ef9 + " REPO INFO* 💬\n\n👊 *Name:* " + _0x2f3ef9 + "\n✨ *Stars:* " + _0x104bd8.toLocaleString() + "\n🍴 *Forks:* " + _0x83a01e.toLocaleString() + "\n📡 *Watchers:* " + _0x517909.toLocaleString() + "\n‼️ *Open Issues:* " + _0x571494.toLocaleString() + "\n🧑‍💻 *Owner:* " + _0x1b991d + "\n\n⌚ *Fetched on:* " + _0x203945 + "\n\n🔗 *Repo Link:* " + _0x35610a + "\n\n⚒️ Created By *Njabulo Jb*\n\nStay using and follow my updates!";
-    try {
-      await _0x23108e.sendMessage(_0x3247d3, {
-        'text': _0x1cd310,
-        'contextInfo': {
-          'externalAdReply': {
-            'title': "𝗦𝗧𝗔𝗬 𝗨𝗣𝗗𝗔𝗧𝗘 𝗪𝗜𝗧𝗛 𝗡𝗝𝗔𝗕𝗨𝗟𝗢 𝗝𝗕",
-            'body': "Tap here for the latest updates!",
-            'thumbnailUrl': "https://files.catbox.moe/s7mp0j.jpg",
-            'mediaType': 0x1,
-            'renderLargerThumbnail': true,
-            'mediaUrl': "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
-            'sourceUrl': "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T"
-          }
+    const response = await fetch(githubRepo);
+    const data = await response.json();
+
+    if (data) {
+      const repoInfo = {
+        stars: data.stargazers_count,
+        forks: data.forks_count,
+        lastUpdate: data.updated_at,
+        owner: data.owner.login,
+      };
+
+      const releaseDate = new Date(data.created_at).toLocaleDateString('en-GB');
+      const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
+
+      // Construct message caption
+    const messageCaption = `
+      *Hello ,,,👋 This is Njabulo JB*
+      The best bot in the universe developed by Njabulo. Fork and give a star 🌟 to my repo
+               ╭───────────────────
+               │✞ *Stars:* ${repoInfo.stars}
+               │✞ *Forks:* ${repoInfo.forks}
+               │✞ *Release Date:* ${createdDate}
+               │✞ *Last Update:* ${lastUpdateDate}
+               │✞ *Owner:* ${repoInfo.owner}
+               │✞ *Repository:* ${repoInfo.url}
+               ╰───────────────────
+    `;
+
+    // Send the generated message to the user
+    await client.sendMessage(m.chat, {
+      text: messageCaption,
+      contextInfo: {
+        mentionedJid: [m.sender], // Mention the sender
+        externalAdReply: {
+          title: "ɴᴊᴀʙᴜʟᴏ ᴊʙ",
+          body: "ɴᴊᴀʙᴜʟᴏ ᴊʙ",
+          sourceUrl: "https://whatsapp.com/channel/0029VarYP5iAInPtfQ8fRb2T",
+          mediaType: 1,
+          renderLargerThumbnail: true
         }
-      });
-    } catch (_0x2ec752) {
-      console.error("âŒ Error sending GitHub info:", _0x2ec752);
-      _0xb6c54d("âŒ Error sending GitHub info: " + _0x2ec752.message);
+      }
+    });
+};
+ await zk.sendMessage(dest, { image: { url: img }, caption: gitdata });
+    } else {
+      console.log("Could not fetch data");
     }
-  });
+  } catch (error) {
+    console.log("Error fetching data:", error);
+  }
 });
