@@ -28,7 +28,7 @@ zokou({
   console.log("Command executed: wagroup");
 });
 zokou({
-  'nomCom': 'channel',
+  'nomCom': 'channell',
   'reaction': '💬',
   'categorie': "Support-Owner",
   'nomFichier': __filename
@@ -80,7 +80,7 @@ zokou({
     'text': "Hello 👋\n\nClick on the photo below to Follow the OFFICIAL *Njabulo JB* Facebook Page",
     'contextInfo': {
       'externalAdReply': {
-        'sourceUrl': 'https://www.facebook.com/profile.php?id=61553209932337',
+        'sourceUrl': 'https://www.facebook.com/profile.php?id=100094314013209',
         'mediaType': 0x1,
         'mediaUrl': "https://files.catbox.moe/hlazmb.jpg",
         'title': "Follow Facebook Page 📄",
@@ -101,7 +101,7 @@ zokou({
     'text': "Hello 👋\n\nClick on the photo below to Follow the OFFICIAL *NJABULO JB* Instagram Page",
     'contextInfo': {
       'externalAdReply': {
-        'sourceUrl': 'https://www.instagram.com/caseyrhodes',
+        'sourceUrl': 'https://www.facebook.com/profile.php?id=100094314013209',
         'mediaType': 0x1,
         'mediaUrl': "https://files.catbox.moe/hlazmb.jpg",
         'title': "Follow Instagram Page 📄",
@@ -122,7 +122,7 @@ zokou({
     'text': "Hello 👋\n\nClick on the photo below to Follow the OFFICIAL *NJABULO JB* Threads Page",
     'contextInfo': {
       'externalAdReply': {
-        'sourceUrl': 'https://www.threads.net/@fredi.simba.tz',
+        'sourceUrl': 'https://www.facebook.com/profile.php?id=100094314013209',
         'mediaType': 0x1,
         'mediaUrl': "https://files.catbox.moe/hlazmb.jpg",
         'title': "Follow Threads Page 📄",
@@ -143,7 +143,7 @@ zokou({
     'text': "Hello 👋\n\nClick on the photo below to Follow the OFFICIAL *NIABULOJB* TikTok Page",
     'contextInfo': {
       'externalAdReply': {
-        'sourceUrl': 'https://www.tiktok.com/@caseyrhodes',
+        'sourceUrl': 'https://vm.tiktok.com/ZMBJaddxf/',
         'mediaType': 0x1,
         'mediaUrl': "https://files.catbox.moe/hlazmb.jpg",
         'title': "Follow TikTok Page 📄",
@@ -164,7 +164,7 @@ zokou({
     'text': "Hello 👋\n\nClick on the photo below to Join the OFFICIAL *NJABULO JB* Telegram Group",
     'contextInfo': {
       'externalAdReply': {
-        'sourceUrl': 'https://t.me/+u3zlb5y6OfxhOTdk',
+        'sourceUrl': 'https://www.facebook.com/profile.php?id=100094314013209',
         'mediaType': 0x1,
         'mediaUrl': "https://files.catbox.moe/hlazmb.jpg",
         'title': "Join Telegram Group📄",
@@ -185,7 +185,7 @@ zokou({
     'text': "Hello 👋\n\nClick on the photo below to Subscribe the OFFICIAL *NJABULO JB* YouTube Channel",
     'contextInfo': {
       'externalAdReply': {
-        'sourceUrl': 'https://www.youtube.com/@Caseyrhodes01',
+        'sourceUrl': 'https://www.youtube.com/@Njabulo-JBOffice',
         'mediaType': 0x1,
         'mediaUrl': "https://files.catbox.moe/hlazmb.jpg",
         'title': "Follow YouTube Channel📄",
@@ -206,7 +206,7 @@ zokou({
     'text': "Hello 👋\n\nClick on the photo below to connect the OFFICIAL *NJABULO JB* GitHub bot",
     'contextInfo': {
       'externalAdReply': {
-        'sourceUrl': 'https://t.me',
+        'sourceUrl': 'https://www.facebook.com/profile.php?id=100094314013209',
         'mediaType': 0x1,
         'mediaUrl': "https://files.catbox.moe/hlazmb.jpg",
         'title': "Chating With Owner",
