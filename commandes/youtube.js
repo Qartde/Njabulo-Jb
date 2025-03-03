@@ -70,31 +70,15 @@ let downloadData;
 
     // Prepare the message with song details
     const messagePayload = {
-      {
-      audio: { url: downloadUrl },
-        mimetype: 'audio/mp4',
-        contextInfo: {
-          externalAdReply: {
-            title: "ɴᴊᴀʙᴜʟᴏ ᴊʙ ᴍᴜsɪᴄ"
-            body: videoDetails.title,
-            mediaType: 1,
-            sourceUrl: conf.GURL,
-            thumbnailUrl: firstVideo.thumbnail,
-            renderLargerThumbnail: false,
-            showAdAttribution: true,
-          },
-        },
-      },  
-     {
       caption: `\n*ɴᴊᴀʙᴜʟᴏ ᴊʙ ᴍᴜsɪᴄ*\n
-╭┈┈┈⊷
-┊Title: ${songTitle} 
-┊Quality: High
-┊Duration: ${firstVideo.timestamp}
-╰┈┈┈⊷
-╭┈┈┈⊷
-┊🌐channel:https://shorturl.at/q8ZuS
-╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⊷`,
+╭┈┈⊷
+┊ Title: ${songTitle} 
+┊ Quality: High
+┊ Duration: ${firstVideo.timestamp}
+╰┈┈⊷
+╭┈┈⊷
+┊ 🌐channel:https://shorturl.at/q8ZuS
+╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⊷`,
       document: { url: downloadUrl },
         mimetype: 'audio/mpeg',
         contextInfo: {
@@ -117,4 +101,4 @@ let downloadData;
     return repondre(`Download failed due to an error: ${error.message || error}`);
   }
 });
-      
+    
