@@ -98,7 +98,7 @@ zokou({ nomCom: 'done',
 );
 
 
-zokou({ nomCom: 'update',
+zokou({ nomCom: 'runing',
     desc: 'To check runtime',
     Categorie: 'General',
     reaction: '⚙️', 
