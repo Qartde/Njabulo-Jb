@@ -68,7 +68,7 @@ keith({
     // Prepare the message payload with external ad details
     const messagePayloads = [
       {
-      caption: `\n*LUCKY MD AUDIOS*\n
+      caption: `\n*ɴᴊᴀʙᴜʟᴏ ᴊʙ ᴍᴜsɪᴄ*\n
 ╭┈┈┈⊷
 ┊Title: ${songTitle} 
 ┊Quality: High
