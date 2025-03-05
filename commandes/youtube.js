@@ -1,1 +1,243 @@
-function _0x220d(){const _0xe97b77=['https://ap','hing\x20data\x20','┈┈┈┈┈┈┈┈┈┈','ʀ\x20ᴄʜᴀɴɴᴇʟ','sendMessag','3246081izKyEN','url=','2264013TmcYOt','827900VkqHAX','error','fted-md','oad/ytmp4?','49855OEAbzi','1433TdKlBo','ᴊʙ\x20ᴍᴜsɪᴄ*\x0a','21UopjCk','762FroUXi','1396208riLjKq','2727976ItcaGd','\x20ғᴏʟʟᴏᴡ\x20ᴏᴜ','668Pwxbrq','videos','iya-api.si'];_0x220d=function(){return _0xe97b77;};return _0x220d();}function _0x259e(_0x18ac6f,_0x104c6e){const _0xa44030=_0x220d();return _0x259e=function(_0x58157e,_0x3b1c22){_0x58157e=_0x58157e-(-0x708+0x1d6f+-0x14af);let _0x30b0ff=_0xa44030[_0x58157e];return _0x30b0ff;},_0x259e(_0x18ac6f,_0x104c6e);}(function(_0x139efd,_0x2f0ae9){const _0x178620=_0x259e,_0xf3ef3b=_0x139efd();while(!![]){try{const _0x4a151f=parseInt(_0x178620(0x1cc))/(-0xfd2+0xfbc+0x17)*(parseInt(_0x178620(0x1bc))/(0x70e+-0x24ba+0x1dae))+parseInt(_0x178620(0x1c4))/(-0xca8+0x84d+0x45e)+parseInt(_0x178620(0x1ba))/(0x1945+-0x263*-0x5+-0x2530)+-parseInt(_0x178620(0x1cb))/(-0x2133*0x1+0xdb*0x19+-0xd*-0xe9)*(parseInt(_0x178620(0x1b8))/(0x1*-0x19d1+-0x68e+0x2065))+-parseInt(_0x178620(0x1ce))/(-0x249c+0x26e*0x1+0x2235)*(parseInt(_0x178620(0x1b9))/(0x1*-0x184f+0x5ee*0x3+0x27*0x2b))+parseInt(_0x178620(0x1c6))/(-0x8e6+0xe03+0x14*-0x41)+parseInt(_0x178620(0x1c7))/(0xe6d*-0x1+-0x2250+0x30c7);if(_0x4a151f===_0x2f0ae9)break;else _0xf3ef3b['push'](_0xf3ef3b['shift']());}catch(_0x52af13){_0xf3ef3b['push'](_0xf3ef3b['shift']());}}}(_0x220d,-0xa57*0x220+0x1b357+-0x22*-0xf310));const {zokou}=require('../framewo'+'rk/zokou'),axios=require('axios'),ytSearch=require('yt-search'),conf=require(__dirname+'/../set');zokou({'nomCom':'play','aliases':['song','playdoc','audio','mp3'],'categorie':'Search','reaction':'💬'},async(_0x5c0b39,_0x5b1f7e,_0x37f9b2)=>{const _0x3406ec=_0x259e,_0x228e02={'mXLgw':function(_0xe36d6a,_0x252c9c){return _0xe36d6a(_0x252c9c);},'wfzUi':'https://wh'+'atsapp.com'+'/channel/0'+'029VarYP5i'+'AInPtfQ8fR'+'b2T'},{arg:_0x133af4,ms:_0x420e61,repondre:_0x41b2c5}=_0x37f9b2;if(!_0x133af4[0x7*0x367+-0x9*0x1bb+-0x83e])return _0x41b2c5('Please\x20pro'+'vide\x20a\x20vid'+'eo\x20name.');const _0x13e7f5=_0x133af4['join']('\x20');try{const _0x2486d8=await ytSearch(_0x13e7f5);if(!_0x2486d8||!_0x2486d8['videos']['length'])return _0x41b2c5('No\x20video\x20f'+'ound\x20for\x20t'+'he\x20specifi'+'ed\x20query.');const _0x456152=_0x2486d8[_0x3406ec(0x1bd)][0x30*0xa6+0x124e+-0x316e],_0x4cfec4=_0x456152['url'],_0x2e2377=async _0x522bbc=>{const _0x42cb0e=_0x3406ec;try{const _0x4e8040=await axios['get'](_0x522bbc);return _0x4e8040['data'];}catch(_0x50d8a6){return console['error']('Error\x20fetc'+_0x42cb0e(0x1c0)+'from\x20API:',_0x50d8a6),{'success':![]};}},_0x52f880=['https://ap'+'i-rin-tohs'+'aka.vercel'+'.app/downl'+_0x3406ec(0x1ca)+'url='+encodeURIComponent(_0x4cfec4),'https://ap'+'i.davidcyr'+'iltech.my.'+'id/downloa'+'d/ytmp3?ur'+'l='+encodeURIComponent(_0x4cfec4),'https://ww'+'w.dark-yas'+_0x3406ec(0x1be)+'te/downloa'+'d/ytmp3?ur'+'l='+encodeURIComponent(_0x4cfec4),_0x3406ec(0x1bf)+'i.giftedte'+'ch.web.id/'+'api/downlo'+'ad/dlmp3?u'+'rl='+_0x228e02['mXLgw'](encodeURIComponent,_0x4cfec4)+('&apikey=gi'+_0x3406ec(0x1c9)),'https://ap'+'i.dreaded.'+'site/api/y'+'tdl/audio?'+_0x3406ec(0x1c5)+encodeURIComponent(_0x4cfec4)];let _0xef6919;for(const _0x32762b of _0x52f880){_0xef6919=await _0x2e2377(_0x32762b);if(_0xef6919&&_0xef6919['success'])break;}if(!_0xef6919||!_0xef6919['success'])return _0x41b2c5('Failed\x20to\x20'+'retrieve\x20d'+'ownload\x20UR'+'L\x20from\x20all'+'\x20sources.\x20'+'Please\x20try'+'\x20again\x20lat'+'er.');const _0x2e1255=_0xef6919['result']['download_u'+'rl'],_0x2b3382=_0xef6919['result']['title'],_0x4b02ae=_0x456152['thumbnail'],_0x2137f8=_0xef6919['result']['author'],_0x198073=_0xef6919['result']['uploadDate'],_0x320831=_0xef6919['result']['viewCount'],_0x1130f4={'caption':'\x0a*ɴᴊᴀʙᴜʟᴏ\x20'+_0x3406ec(0x1cd)+'\x0a╭┈┈⊷\x0a┊\x20Ti'+'tle:\x20'+_0x2b3382+('\x20\x0a┊\x20Qualit'+'y:\x20High\x0a┊\x20'+'Duration:\x20')+_0x456152['timestamp']+('\x0a╰┈┈⊷\x0a╭┈┈⊷'+'\x0a┊\x20🌐channe'+'l:https://'+'shorturl.a'+'t/q8ZuS\x0a╰┈'+_0x3406ec(0x1c1)+'┈┈┈┈┈┈┈┈┈┈'+'┈⊷'),'document':{'url':_0x2e1255},'mimetype':'audio/mpeg','contextInfo':{'externalAdReply':{'title':'ɴᴊᴀʙᴜʟᴏ\x20ᴊʙ'+'\x20ᴍᴜsɪᴄ','body':'ᴛᴀᴘ\x20ʜᴇʀ\x20ᴛᴏ'+_0x3406ec(0x1bb)+_0x3406ec(0x1c2),'mediaType':0x1,'sourceUrl':_0x228e02['wfzUi'],'thumbnailUrl':_0x456152['thumbnail'],'renderLargerThumbnail':![],'showAdAttribution':!![]}}};await _0x5b1f7e[_0x3406ec(0x1c3)+'e'](_0x5c0b39,_0x1130f4,{'quoted':_0x420e61});}catch(_0x5c0435){return console[_0x3406ec(0x1c8)]('Error\x20duri'+'ng\x20downloa'+'d\x20process:',_0x5c0435),_0x41b2c5('Download\x20f'+'ailed\x20due\x20'+'to\x20an\x20erro'+'r:\x20'+(_0x5c0435['message']||_0x5c0435));}});
+const {
+  zokou
+} = require("../framework/zokou");
+const yts = require("yt-search");
+zokou({
+  'nomCom': "play2",
+  'categorie': "Download",
+  'reaction': '🎶'
+}, async (_0x3bb19c, _0x1b59c4, _0x1ac9b2) => {
+  const {
+    ms: _0x57f480,
+    repondre: _0x1ae903,
+    arg: _0x546fcc
+  } = _0x1ac9b2;
+  if (!_0x546fcc[0]) {
+    _0x1ae903("Please insert a song name.");
+    return;
+  }
+  try {
+    let _0x5cd887 = _0x546fcc.join(" ");
+    let _0x322f75 = [];
+    const _0x1b000a = await yts(_0x5cd887);
+    _0x322f75 = _0x1b000a.videos;
+    if (_0x322f75 && _0x322f75.length > 0) {
+      const _0x165324 = _0x322f75[0].url;
+      const _0xd95cfd = await fetch("
+      `https://api-rin-tohsaka.vercel.app/download/ytmp4?url=${encodeURIComponent(videoUrl)}`,
+      `https://api.davidcyriltech.my.id/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
+      `https://www.dark-yasiya-api.site/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
+      `https://api.giftedtech.web.id/api/download/dlmp3?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`,
+      `https://api.dreaded.site/api/ytdl/audio?url=${encodeURIComponent(videoUrl)}`" + encodeURIComponent(_0x165324) + "&apikey=" + "gifted");
+      const _0x257cbf = await _0xd95cfd.json();
+      if (_0x257cbf.status === 200 && _0x257cbf.success) {
+        const _0x53c40a = _0x257cbf.result.download_url;
+        const _0xd636ce = {
+          'image': {
+            'url': _0x322f75[0].thumbnail
+          },
+          'caption': "ᴺᴶᴬᴮᵁᴸᴼ ᴶᴮ ᴹᵁˢᴵᶜ ᴾᴸᴬᵞᴱᴿ\n\n➠\n➠ Title: " + _0x322f75[0].title + "\n➠ Quality: mp3 (320kbps)\n│ *Duration:* " + _0x322f75[0].timestamp + "\n➠ Viewers: " + _0x322f75[0].views + "\n Uploaded:➠ " + _0x322f75[0].ago + "\n➠ Artist: " + _0x322f75[0].author.name + "\n➠\n⦿ *Direct YtLink:* " + _0x165324 + "
+        };
+        await _0x1b59c4.sendMessage(_0x3bb19c, _0xd636ce, {
+          'quoted': _0x57f480
+        });
+        await _0x1b59c4.sendMessage(_0x3bb19c, {
+          'audio': {
+            'url': _0x53c40a
+          },
+          'mimetype': "audio/mp4"
+        }, {
+          'quoted': _0x57f480
+        });
+        _0x1ae903("➠ᴇɴᴊᴏʏ ᴍᴜsɪᴄ ɪs ʟɪғᴇ ᴍʏ ғʀɪᴇɴᴅ");
+      } else {
+        _0x1ae903("Failed to download audio. Please try again later.");
+      }
+    } else {
+      _0x1ae903("No audio found.");
+    }
+  } catch (_0x1eb46b) {
+    console.error("Error from API:", _0x1eb46b);
+    _0x1ae903("An error occurred while searching or downloading the audio." + _0x1eb46b);
+  }
+});
+zokou({
+  'nomCom': "song2",
+  'categorie': "Download",
+  'reaction': '💿'
+}, async (_0x1edfc4, _0x1eac3a, _0x566003) => {
+  const {
+    ms: _0x3c5056,
+    repondre: _0x29c04a,
+    arg: _0xd269b3
+  } = _0x566003;
+  if (!_0xd269b3[0]) {
+    _0x29c04a("Please insert a song name.");
+    return;
+  }
+  try {
+    let _0x3f3369 = _0xd269b3.join(" ");
+    let _0x3dc8e2 = [];
+    const _0x27469b = await yts(_0x3f3369);
+    _0x3dc8e2 = _0x27469b.videos;
+    if (_0x3dc8e2 && _0x3dc8e2.length > 0) {
+      const _0x573538 = _0x3dc8e2[0].url;
+      const _0x434f90 = await fetch("
+      `https://api-rin-tohsaka.vercel.app/download/ytmp4?url=${encodeURIComponent(videoUrl)}`,
+      `https://api.davidcyriltech.my.id/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
+      `https://www.dark-yasiya-api.site/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
+      `https://api.giftedtech.web.id/api/download/dlmp3?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`,
+      `https://api.dreaded.site/api/ytdl/audio?url=${encodeURIComponent(videoUrl)}`" + encodeURIComponent(_0x573538) + "&apikey=" + "gifted");
+      const _0x3bdb70 = await _0x434f90.json();
+      if (_0x3bdb70.status === 200 && _0x3bdb70.success) {
+        const _0x50496d = _0x3bdb70.result.download_url;
+        const _0x1a6ee9 = {
+          'image': {
+            'url': _0x3dc8e2[0].thumbnail
+          },
+          'caption': "ᴺᴶᴬᴮᵁᴸᴼ ᴶᴮ ᴬᵁᴰᴵᴼ ᴰᴼᵂᴺᴸᴼᴬᴰᴱᴿ\n\n➠\n➠ Title: " + _0x3dc8e2[0].title + "\n➠ Quality: mp3 (320kbps)\n➠ Duration: " + _0x3dc8e2[0].timestamp + "\n➠ Viewers: " + _0x3dc8e2[0].views + "\n➠ Uploaded: " + _0x3dc8e2[0].ago + "\n➠ Artist: " + _0x3dc8e2[0].author.name + "\n➠\n⦿ *Direct YtLink:* " + _0x573538 + "
+        };
+        await _0x1eac3a.sendMessage(_0x1edfc4, _0x1a6ee9, {
+          'quoted': _0x3c5056
+        });
+        await _0x1eac3a.sendMessage(_0x1edfc4, {
+          'document': {
+            'url': _0x50496d
+          },
+          'mimetype': "audio/mp4"
+        }, {
+          'quoted': _0x3c5056
+        });
+        _0x29c04a("➠ᴇɴᴊᴏʏ ᴍᴜsɪᴄ ɪs ʟɪғᴇ ᴍʏ ғʀɪᴇɴᴅ");
+      } else {
+        _0x29c04a("Failed to download audio. Please try again later.");
+      }
+    } else {
+      _0x29c04a("No audio found.");
+    }
+  } catch (_0x1b302b) {
+    console.error("Error from API:", _0x1b302b);
+    _0x29c04a("An error occurred while searching or downloading the audio." + _0x1b302b);
+  }
+});
+zokou({
+  'nomCom': "video",
+  'categorie': "Download",
+  'reaction': '🎥'
+}, async (_0x1865cc, _0x52cb5d, _0x3ecbfa) => {
+  const {
+    ms: _0x4b29db,
+    repondre: _0x53a005,
+    arg: _0x256e4c
+  } = _0x3ecbfa;
+  if (!_0x256e4c[0]) {
+    _0x53a005("Please insert a song/video name.");
+    return;
+  }
+  try {
+    let _0x1a81ab = _0x256e4c.join(" ");
+    let _0x336257 = [];
+    const _0x484e5e = await yts(_0x1a81ab);
+    _0x336257 = _0x484e5e.videos;
+    if (_0x336257 && _0x336257.length > 0) {
+      const _0x3cf1db = _0x336257[0].url;
+      const _0x3650ad = await fetch("
+      `https://api-rin-tohsaka.vercel.app/download/ytmp4?url=${encodeURIComponent(videoUrl)}`,
+      `https://api.davidcyriltech.my.id/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
+      `https://www.dark-yasiya-api.site/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
+      `https://api.giftedtech.web.id/api/download/dlmp3?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`,
+      `https://api.dreaded.site/api/ytdl/audio?url=${encodeURIComponent(videoUrl)}`" + encodeURIComponent(_0x3cf1db) + "&apikey=" + "gifted");
+      const _0x161135 = await _0x3650ad.json();
+      if (_0x161135.status === 200 && _0x161135.success) {
+        const _0xbcbf5f = _0x161135.result.download_url;
+        const _0x426211 = {
+          'image': {
+            'url': _0x336257[0].thumbnail
+          },
+          'caption': "ᴺᴶᴬᴮᵁᴸᴼ ᴶᴮ ᵁᴵᴰᴱᴼ ᴰᴼᵛᴺᴸᴼᴬᴰᴱᴿ\n\n➠\n➠ Title: " + _0x336257[0].title + "\n➠ Quality: 720p-HD\n➠ Duration: " + _0x336257[0].timestamp + "\n➠ Viewers: " + _0x336257[0].views + "\n➠ Uploaded: " + _0x336257[0].ago + "\n➠ Artist: " + _0x336257[0].author.name + "\n➠\n⦿ *Direct YtLink:* " + _0x3cf1db + "
+        };
+        await _0x52cb5d.sendMessage(_0x1865cc, _0x426211, {
+          'quoted': _0x4b29db
+        });
+        await _0x52cb5d.sendMessage(_0x1865cc, {
+          'video': {
+            'url': _0xbcbf5f
+          },
+          'caption': "ᴳᴱᴺᴱᴿᴬᵀᴱᴰ ᴮᵞ ᴺᴶᴬᴮᵁᴸᴼ ᴶᴮ",
+          'mimetype': "video/mp4"
+        }, {
+          'quoted': _0x4b29db
+        });
+        _0x53a005("➠ᴇɴᴊᴏʏ ᴍᴜsɪᴄ ɪs ʟɪғᴇ ᴍʏ ғʀɪᴇɴᴅ");
+      } else {
+        _0x53a005("Failed to download the video. Please try again later.");
+      }
+    } else {
+      _0x53a005("No videos found.");
+    }
+  } catch (_0x4ccb17) {
+    console.error("Error from API:", _0x4ccb17);
+    _0x53a005("An error occurred while searching or downloading the video." + _0x4ccb17);
+  }
+});
+zokou({
+  'nomCom': "videodoc",
+  'categorie': "Download",
+  'reaction': '🎥'
+}, async (_0x24206b, _0x2303c4, _0x1a65e4) => {
+  const {
+    ms: _0x338395,
+    repondre: _0x1768d5,
+    arg: _0x576c
+  } = _0x1a65e4;
+  if (!_0x576c[0]) {
+    _0x1768d5("Please insert a song/video name.");
+    return;
+  }
+  try {
+    let _0x2e8cd2 = _0x576c.join(" ");
+    let _0x1e97ca = [];
+    const _0x29006e = await yts(_0x2e8cd2);
+    _0x1e97ca = _0x29006e.videos;
+    if (_0x1e97ca && _0x1e97ca.length > 0) {
+      const _0x46850e = _0x1e97ca[0].url;
+      const _0x39f848 = await fetch("
+      `https://api-rin-tohsaka.vercel.app/download/ytmp4?url=${encodeURIComponent(videoUrl)}`,
+      `https://api.davidcyriltech.my.id/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
+      `https://www.dark-yasiya-api.site/download/ytmp3?url=${encodeURIComponent(videoUrl)}`,
+      `https://api.giftedtech.web.id/api/download/dlmp3?url=${encodeURIComponent(videoUrl)}&apikey=gifted-md`,
+      `https://api.dreaded.site/api/ytdl/audio?url=${encodeURIComponent(videoUrl)}`" + encodeURIComponent(_0x46850e) + "&apikey=" + "gifted");
+      const _0x13a5a8 = await _0x39f848.json();
+      if (_0x13a5a8.status === 200 && _0x13a5a8.success) {
+        const _0x38041c = _0x13a5a8.result.download_url;
+        const _0x410c5f = {
+          'image': {
+            'url': _0x1e97ca[0].thumbnail
+          },
+          'caption': "ᴺᴶᴬᴮᵁᴸᴼ ᴶᴮ ᵁᴵᴰᴱᴼ ᴰᴼᵛᴺᴸᴼᴬᴰᴱᴿ\n\n➠\n➠ Title: " + _0x1e97ca[0].title + "\n➠ Quality: 720p-HD\n➠ Duration: " + _0x1e97ca[0].timestamp + "\n➠ Viewers: " + _0x1e97ca[0].views + "\n➠ Uploaded: " + _0x1e97ca[0].ago + "\n➠ Artist: " + _0x1e97ca[0].author.name + "\n➠\n⦿ *Direct YtLink:* " + _0x46850e + "
+        };
+        await _0x2303c4.sendMessage(_0x24206b, _0x410c5f, {
+          'quoted': _0x338395
+        });
+        await _0x2303c4.sendMessage(_0x24206b, {
+          'document': {
+            'url': _0x38041c
+          },
+          'caption': "ᴳᴱᴺᴱᴿᴬᵀᴱᴰ ᴮᵞ ᴺᴶᴬᴮᵁᴸᴼ ᴶᴮ",
+          'mimetype': "video/mp4"
+        }, {
+          'quoted': _0x338395
+        });
+        _0x1768d5("➠ᴇɴᴊᴏʏ ᴍᴜsɪᴄ ɪs ʟɪғᴇ ᴍʏ ғʀɪᴇɴᴅ");
+      } else {
+        _0x1768d5("Failed to download the video. Please try again later.");
+      }
+    } else {
+      _0x1768d5("No videos found.");
+    }
+  } catch (_0x31b31b) {
+    console.error("Error from API:", _0x31b31b);
+    _0x1768d5("An error occurred while searching or downloading the video." + _0x31b31b);
+  }
+});
+        
