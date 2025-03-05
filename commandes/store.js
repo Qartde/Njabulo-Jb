@@ -7,7 +7,7 @@ const gis = require('g-i-s');
 
 
 zokou({
-  'nomCom': 'apk',
+  'nomCom': 'app',
   'aliases': ['app', 'playstore'],
   'reaction': '🗂️',
   'categorie': 'Download'
@@ -43,7 +43,7 @@ zokou({
     await client.sendMessage(
       groupId,
       {
-  caption:`\n*ɴᴊᴀʙᴜʟᴏ ᴊʙ ᴍᴜsɪᴄ*\n
+      caption:`\n*ɴᴊᴀʙᴜʟᴏ ᴊʙ ᴍᴜsɪᴄ*\n
 ╭┈┈┈⊷
 ┊fileName: `${appDetails.BK9.name}.apk`,
 ┊Quality: High
