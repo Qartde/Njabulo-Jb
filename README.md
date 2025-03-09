@@ -2139,7 +2139,7 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=000000&width=435&lines=𝗠𝗔𝗗𝗘+𝗕𝗬+𝗡𝗝𝗔𝗕𝗨𝗟𝗢+𝗝𝗕+𝗢𝗙𝗙𝗜𝗖𝗘+𝗕𝗪+𝟮𝟬𝟮𝟱+𝗧𝗔𝗡𝗞𝗦+𝗬𝗢𝗨+𝗦𝗨𝗣𝗣𝗢𝗥𝗧)](https://git.io/typing-svg)
 
-<p align="center"><img src="https://files.catbox.moe/kyesjo.jpg" width="500"height="500" />
+<p align="center"><img src="https://files.catbox.moe/fsimzc.jpg" width="500"height="500" />
 
 <p align="center">
 <a href="https://github.com/NjabuloJ/followers"><img title="Followers" src="https://img.shields.io/github/followers/NjabuloJ?color=blue&style=flat-square"></a>
