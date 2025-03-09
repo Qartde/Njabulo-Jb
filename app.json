@@ -2,7 +2,7 @@
   "name":"ɴᴊᴀʙᴜʟᴏ-ᴊʙ",
   "description":"Best whatsapp bot",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://files.catbox.moe/kyesjo.jpg",
+  "logo":"https://files.catbox.moe/822xi6.jpg",
   "repository":"https://github.com/NjabuloJ/Njabulo-Jb",
   "succes_url":"/",
   "stack":"container",
@@ -52,7 +52,7 @@
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://files.catbox.moe/kyesjo.jpg",
+      "value":"https://files.catbox.moe/kyesjo.jpg","https://files.catbox.moe/822xi6.jpg"
       "required":false
        
      },
